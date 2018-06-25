@@ -4,7 +4,6 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
-	<classpathentry kind="src" path="src/test/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry sourcepath="/home/hadoop/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" kind="lib" path="/home/hadoop/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar"/>
 	<classpathentry sourcepath="/home/hadoop/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.10/2.0.0/7cf99efaa5e3029e138cf8d73a3759bc5d7e7e16/spark-core_2.10-2.0.0-sources.jar" kind="lib" path="/home/hadoop/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.10/2.0.0/fa5a3b1dcec12a89b91592bf835054c5bd1fa688/spark-core_2.10-2.0.0.jar"/>
