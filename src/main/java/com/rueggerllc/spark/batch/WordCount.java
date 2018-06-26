@@ -26,18 +26,20 @@ public class WordCount {
         
         logger.info("WordCount BEGIN");
         
+        logger.info("args.length=" + args.length);
         if (args.length < 2) {
         	System.out.println("Usage WordCount inputPath outputPath");
+        	return;
         }
         String inputPath = args[0];
         String outputPath = args[1];
         logger.info("inputPath=" + inputPath);
         logger.info("outputPath=" + outputPath);
         
-        // SparkConf conf = new SparkConf().setAppName("WordCount").setMaster("local[*]");
-        SparkConf conf = new SparkConf().setAppName("WordCount");
-        
+        SparkConf conf = new SparkConf().setAppName("WordCount").setMaster("local[*]");
+        // SparkConf conf = new SparkConf().setAppName("WordCount");
 	    JavaSparkContext sc = new JavaSparkContext(conf);
+	    
 	    logger.info("spark.master=" + conf.get("spark.master"));
 	    logger.info("Context Created");
         
